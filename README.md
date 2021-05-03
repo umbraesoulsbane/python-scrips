@@ -1,2 +1,2 @@
 # python-scrips
-Generic Python Scripts
+Generic Python Scripts for fun and function
