@@ -1,5 +1,6 @@
 import pyperclip
 
+print("\n\n")
 print("****************************************************************")
 print("                 Screw with Count to a Mil")
 print("****************************************************************\n\n")
@@ -10,7 +11,7 @@ char_count = 0
 write_list = []
 write_string_full = ''
   
-print('-----------------------------------------------------------')
+print('\n-------------------------DONE------------------------------\n')
 
 
 count = int(start_string)
@@ -20,7 +21,9 @@ while char_count < 1650:
     write_string_full += write_string
     count += 1
 
-print(char_count)
+print("Character Count: " + str(char_count))
+print("Last Number: " + str(write_string))
 
 pyperclip.copy(str(write_string_full))
 
+print("============== Contents added to clipboard ==============\n\n")
