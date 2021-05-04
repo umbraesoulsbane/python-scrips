@@ -8,10 +8,9 @@ print("****************************************************************\n\n")
 start_string = input("Start Number: ")
 
 char_count = 0
-write_list = []
 write_string_full = ''
   
-print('\n-------------------------DONE------------------------------\n')
+print('\n------------------------- D O N E ------------------------------\n')
 
 
 count = int(start_string)
@@ -26,4 +25,4 @@ print("Last Number: " + str(write_string))
 
 pyperclip.copy(str(write_string_full))
 
-print("============== Contents added to clipboard ==============\n\n")
+print("================== Contents added to clipboard =================\n\n")
